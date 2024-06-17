@@ -16,7 +16,7 @@ html,body{
     position: relative;
     width: 100%;
     min-height: 30vh;
-    overflow: hidden; /* Ensure pseudo-element does not overflow */
+    overflow: hidden; 
 }
 
 .top::before {
@@ -24,13 +24,13 @@ html,body{
     background-image: url('https://assets.warehousegig.com/production/224/Warehouse_Inventory_Manager_Job_Description_1600x684.png');
     background-size: cover;
     background-position: center;
-    opacity: 0.3; /* Adjust the opacity as needed */
+    opacity: 0.3; 
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: -1; /* Ensure the background is behind the content */
+    z-index: -1; 
 }
 
 .top .overlay{
